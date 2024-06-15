@@ -25,10 +25,10 @@ DESC
   s.swift_version    = '5.1'
   s.cocoapods_version = '>= 1.10'
 
-  s.homepage         = 'https://github.com/HK-ant/webfunny_otel_ios_crashreporting.git'
+  s.homepage         = 'https://github.com/a597873885/webfunny_otel_ios_crashreporting.git'
   s.license          = { :type => "Apache", :file => 'LICENSE' }
   s.author           = { 'Splunk' => 'www.splunk.com' }
-  s.source           = { :git => 'https://github.com/HK-ant/webfunny_otel_ios_crashreporting.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/a597873885/webfunny_otel_ios_crashreporting.git', :tag => s.version.to_s }
 # Make sure the deployment target matches with Package.swift
   s.ios.deployment_target = '11.0'
   s.source_files = 'SplunkRumCrashReporting/SplunkRumCrashReporting/**/*.swift'
