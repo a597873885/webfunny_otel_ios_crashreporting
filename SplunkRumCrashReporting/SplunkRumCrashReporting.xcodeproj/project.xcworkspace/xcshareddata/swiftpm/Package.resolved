@@ -1,0 +1,24 @@
+{
+  "originHash" : "17a934e6f133f4f1e1b502b6886c613f60834063605e768cb7007ad9c1b502fa",
+  "pins" : [
+    {
+      "identity" : "plcrashreporter",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/microsoft/plcrashreporter",
+      "state" : {
+        "revision" : "1aed8f7dc79ce8e674c61e430ef51ca3db18cea9",
+        "version" : "1.11.1"
+      }
+    },
+    {
+      "identity" : "splunk-otel-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/signalfx/splunk-otel-ios",
+      "state" : {
+        "revision" : "9a137be01217b3c378e25fb2fcd2dec56a82308c",
+        "version" : "0.11.3"
+      }
+    }
+  ],
+  "version" : 3
+}
