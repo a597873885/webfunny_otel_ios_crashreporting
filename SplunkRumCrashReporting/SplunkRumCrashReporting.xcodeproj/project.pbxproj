@@ -3,17 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E8CC3A0F22322D11633602D /* Pods_SplunkRumCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6D67470E463E38A3F83D746 /* Pods_SplunkRumCrashReporting.framework */; };
 		86461EE426972906007C6DC0 /* SplunkRumCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86461EDA26972906007C6DC0 /* SplunkRumCrashReporting.framework */; };
 		86461EE926972906007C6DC0 /* CrashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86461EE826972906007C6DC0 /* CrashTests.swift */; };
 		86461EEB26972906007C6DC0 /* SplunkRumCrashReporting.h in Headers */ = {isa = PBXBuildFile; fileRef = 86461EDD26972906007C6DC0 /* SplunkRumCrashReporting.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86461EF726972964007C6DC0 /* CrashReporting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86461EF626972964007C6DC0 /* CrashReporting.swift */; };
-		86461EFC269729C0007C6DC0 /* CrashReporter in Frameworks */ = {isa = PBXBuildFile; productRef = 86461EFB269729C0007C6DC0 /* CrashReporter */; };
 		86461F0526972A11007C6DC0 /* sample_v1.plcrash in Resources */ = {isa = PBXBuildFile; fileRef = 86461F0426972A11007C6DC0 /* sample_v1.plcrash */; };
-		86D3180A271655B300B43379 /* SplunkOtel in Frameworks */ = {isa = PBXBuildFile; productRef = 86D31809271655B300B43379 /* SplunkOtel */; };
 		D774545D28E38CF40056159F /* DeviceStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = D774545C28E38CF40056159F /* DeviceStats.swift */; };
 		D7C64D1228E494C50086368D /* DeviceStatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C64D1128E494C50086368D /* DeviceStatsTests.swift */; };
 		D7D14290293804A200CAD87E /* sample_v2.plcrash in Resources */ = {isa = PBXBuildFile; fileRef = D7D1428F293804A200CAD87E /* sample_v2.plcrash */; };
@@ -30,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10F72CE8F4B88CE27A04E9CA /* Pods-SplunkRumCrashReporting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplunkRumCrashReporting.release.xcconfig"; path = "Target Support Files/Pods-SplunkRumCrashReporting/Pods-SplunkRumCrashReporting.release.xcconfig"; sourceTree = "<group>"; };
 		86461EDA26972906007C6DC0 /* SplunkRumCrashReporting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SplunkRumCrashReporting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86461EDD26972906007C6DC0 /* SplunkRumCrashReporting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplunkRumCrashReporting.h; sourceTree = "<group>"; };
 		86461EDE26972906007C6DC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,6 +41,8 @@
 		D774545C28E38CF40056159F /* DeviceStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceStats.swift; sourceTree = "<group>"; };
 		D7C64D1128E494C50086368D /* DeviceStatsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceStatsTests.swift; sourceTree = "<group>"; };
 		D7D1428F293804A200CAD87E /* sample_v2.plcrash */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample_v2.plcrash; sourceTree = "<group>"; };
+		E470A19334220806B826E66B /* Pods-SplunkRumCrashReporting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplunkRumCrashReporting.debug.xcconfig"; path = "Target Support Files/Pods-SplunkRumCrashReporting/Pods-SplunkRumCrashReporting.debug.xcconfig"; sourceTree = "<group>"; };
+		F6D67470E463E38A3F83D746 /* Pods_SplunkRumCrashReporting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SplunkRumCrashReporting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,8 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86461EFC269729C0007C6DC0 /* CrashReporter in Frameworks */,
-				86D3180A271655B300B43379 /* SplunkOtel in Frameworks */,
+				1E8CC3A0F22322D11633602D /* Pods_SplunkRumCrashReporting.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,12 +65,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A9B26D5497BEEB70C236E68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E470A19334220806B826E66B /* Pods-SplunkRumCrashReporting.debug.xcconfig */,
+				10F72CE8F4B88CE27A04E9CA /* Pods-SplunkRumCrashReporting.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5E93EF016F678AE1B96BFE71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6D67470E463E38A3F83D746 /* Pods_SplunkRumCrashReporting.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		86461ED026972906007C6DC0 = {
 			isa = PBXGroup;
 			children = (
 				86461EDC26972906007C6DC0 /* SplunkRumCrashReporting */,
 				86461EE726972906007C6DC0 /* SplunkRumCrashReportingTests */,
 				86461EDB26972906007C6DC0 /* Products */,
+				2A9B26D5497BEEB70C236E68 /* Pods */,
+				5E93EF016F678AE1B96BFE71 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,10 +143,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86461EEE26972906007C6DC0 /* Build configuration list for PBXNativeTarget "SplunkRumCrashReporting" */;
 			buildPhases = (
+				10A9FA2A317ADB32E269141F /* [CP] Check Pods Manifest.lock */,
 				86461ED526972906007C6DC0 /* Headers */,
 				86461ED626972906007C6DC0 /* Sources */,
 				86461ED726972906007C6DC0 /* Frameworks */,
 				86461ED826972906007C6DC0 /* Resources */,
+				6EE66040A3505963B9E83249 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,8 +156,6 @@
 			);
 			name = SplunkRumCrashReporting;
 			packageProductDependencies = (
-				86461EFB269729C0007C6DC0 /* CrashReporter */,
-				86D31809271655B300B43379 /* SplunkOtel */,
 			);
 			productName = SplunkRumCrashReporting;
 			productReference = 86461EDA26972906007C6DC0 /* SplunkRumCrashReporting.framework */;
@@ -187,8 +207,6 @@
 			);
 			mainGroup = 86461ED026972906007C6DC0;
 			packageReferences = (
-				86461EFA269729C0007C6DC0 /* XCRemoteSwiftPackageReference "plcrashreporter" */,
-				86D31808271655B300B43379 /* XCRemoteSwiftPackageReference "splunk-otel-ios" */,
 			);
 			productRefGroup = 86461EDB26972906007C6DC0 /* Products */;
 			projectDirPath = "";
@@ -218,6 +236,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10A9FA2A317ADB32E269141F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SplunkRumCrashReporting-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EE66040A3505963B9E83249 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SplunkRumCrashReporting/Pods-SplunkRumCrashReporting-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SplunkRumCrashReporting/Pods-SplunkRumCrashReporting-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SplunkRumCrashReporting/Pods-SplunkRumCrashReporting-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		86461ED626972906007C6DC0 /* Sources */ = {
@@ -373,6 +433,7 @@
 		};
 		86461EEF26972906007C6DC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E470A19334220806B826E66B /* Pods-SplunkRumCrashReporting.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -406,6 +467,7 @@
 		};
 		86461EF026972906007C6DC0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10F72CE8F4B88CE27A04E9CA /* Pods-SplunkRumCrashReporting.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -515,38 +577,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		86461EFA269729C0007C6DC0 /* XCRemoteSwiftPackageReference "plcrashreporter" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/microsoft/plcrashreporter";
-			requirement = {
-				kind = exactVersion;
-				version = 1.11.1;
-			};
-		};
-		86D31808271655B300B43379 /* XCRemoteSwiftPackageReference "splunk-otel-ios" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/signalfx/splunk-otel-ios";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.4.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		86461EFB269729C0007C6DC0 /* CrashReporter */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 86461EFA269729C0007C6DC0 /* XCRemoteSwiftPackageReference "plcrashreporter" */;
-			productName = CrashReporter;
-		};
-		86D31809271655B300B43379 /* SplunkOtel */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 86D31808271655B300B43379 /* XCRemoteSwiftPackageReference "splunk-otel-ios" */;
-			productName = SplunkOtel;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 86461ED126972906007C6DC0 /* Project object */;
 }

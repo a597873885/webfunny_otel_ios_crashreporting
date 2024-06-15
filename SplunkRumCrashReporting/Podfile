@@ -1,0 +1,7 @@
+platform :ios, '11.0'
+use_frameworks!
+
+target 'SplunkRumCrashReporting' do
+  pod 'PLCrashReporter', '~> 1.11.1'
+  pod 'webfunny_otel_ios', '~> 0.0.1'
+end

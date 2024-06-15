@@ -17,8 +17,7 @@ limitations under the License.
 
 import Foundation
 import CrashReporter
-import SplunkOtel
-import MachO
+import webfunny_otel_ios
 
 // Make sure the version numbers on the podspec and CrashReporting.swift match
 let CrashReportingVersionString = "0.6.0"

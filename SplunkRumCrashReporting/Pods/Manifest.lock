@@ -1,0 +1,20 @@
+PODS:
+  - PLCrashReporter (1.11.2)
+  - webfunny_otel_ios (0.0.1)
+
+DEPENDENCIES:
+  - PLCrashReporter (~> 1.11.1)
+  - webfunny_otel_ios (~> 0.0.1)
+
+SPEC REPOS:
+  trunk:
+    - PLCrashReporter
+    - webfunny_otel_ios
+
+SPEC CHECKSUMS:
+  PLCrashReporter: 499c53b0104f95c302d94fd723ebb03c56d9bac8
+  webfunny_otel_ios: c3ba91b601b8fdee6690c2ff9e1f59f44450a87c
+
+PODFILE CHECKSUM: 6a169dc74d43b8ae9b291ecd4d5230c933b95fbf
+
+COCOAPODS: 1.15.2
